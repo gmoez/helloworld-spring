@@ -19,7 +19,7 @@ node {
     }
     
     stage('Deploy application') {
-        /* qsdThis builds the actual image */
+        /* qsdThis builds the actualsq image */
         echo "Running conntainer"
         sh ("docker stop spring")
         sh ("docker rm spring")
