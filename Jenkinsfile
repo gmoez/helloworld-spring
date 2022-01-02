@@ -25,3 +25,4 @@ node {
         sh ("docker rm spring")
         sh ("docker run -dt --name spring -p 8081:8080 springboot:latest")
     }
+    }
