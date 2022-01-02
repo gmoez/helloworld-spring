@@ -13,7 +13,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello， this is the first web app";
+        return "Hello， this is the first web app usinng docker";
     }
 
     public static void main(String[] args) {
