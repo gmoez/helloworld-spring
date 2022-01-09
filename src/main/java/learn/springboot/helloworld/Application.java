@@ -13,7 +13,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello World, this is a trial of CI/CD using Jenkins and docker for DEVOPS begginer";
+        return "Hello World";
     }
 
     public static void main(String[] args) {
