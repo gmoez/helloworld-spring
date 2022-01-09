@@ -7,7 +7,7 @@ node {
     }
     
     stage('Build') {
-        build 'buildjob'
+        build 'buildjob' /* youn need to build a maven project job that pull the source code from the Github repos and build the application using maven */
     }
 
     stage('Build Docker image') {
