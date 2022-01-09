@@ -13,7 +13,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello World";
+        return "Hello World, this is a demo for CI/CD for devops beginners";
     }
 
     public static void main(String[] args) {
