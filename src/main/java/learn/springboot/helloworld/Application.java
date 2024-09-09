@@ -13,7 +13,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "<h1 style=\"text-align: center; background-color: Blue;\">Hello World from main branch Demo ADP live</h1>";
+        return "<h1 style=\"text-align: center; background-color: Red;\">Hello World from feat4 branch Demo ADP live</h1>";
     }
 
     public static void main(String[] args) {
